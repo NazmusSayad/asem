@@ -1,0 +1,9 @@
+{
+  "name": "asem",
+  "version": "0.0.0",
+  "bin": "./bin.js",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "shelljs": "^0.8.5"
+  }
+}
