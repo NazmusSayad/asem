@@ -25,6 +25,6 @@ const vbsPath = path.join(__dirname, './vbs.vbs')
     })),
   })
 
-  console.log('Opening', result.name)
+  console.log('Opening:', result.name)
   shelljs.exec(`"${vbsPath}" ${result.name}`)
 })()
