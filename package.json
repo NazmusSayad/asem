@@ -1,6 +1,6 @@
 {
   "name": "asem",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "bin": "./bin.js",
   "scripts": {
     "start": "node ./bin.js",

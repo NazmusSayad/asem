@@ -14,7 +14,6 @@ const vbsPath = path.join(__dirname, './vbs.vbs')
     .split('\n')
     .map((a) => a.trim())
 
-  console.clear()
   const result = await prompt({
     name: 'name',
     type: 'select',
